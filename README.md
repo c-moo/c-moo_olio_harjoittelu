@@ -1,3 +1,4 @@
 # c-moo_olio_harjoittelu
-Viikkotehtäviä / harjoituksia kurssille
+Viikkotehtäviä / harjoituksia kurssille.
+
 gitignore estää build kansion committaamista
