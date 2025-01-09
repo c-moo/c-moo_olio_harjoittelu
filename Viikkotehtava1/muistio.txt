@@ -1,0 +1,3 @@
+Testattu ja toimii.
+ei ota vastaan numeroita, jos laitaa tekstin alkuun kirjaminen, mutta jos laitaa numeroiden jälkeen kirjamia esim. 110sq niin ohjelma menee
+game functioon 110 max luvulla.
