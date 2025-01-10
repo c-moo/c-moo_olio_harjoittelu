@@ -35,9 +35,9 @@ int game(int maxnum) {
         int guess = -1;
         cout << "Arvaa 1-" << maxnum <<" väliltä numero." << endl;
 
-        while(!(cin >> guess) or (guess < 1)) {
+        while(!(cin >> guess) or (guess < 1) or (guess > maxnum)) {
 
-            cout << "Anna suurempi numero kuin 0" << endl;
+            cout << "Anna sopiva numero, " << guess << " ei ole sopiva numero" << endl;
             cin.clear();
             cin.ignore(10000, '\n');
         }
